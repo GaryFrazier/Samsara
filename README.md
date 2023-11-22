@@ -5,16 +5,20 @@ A rust operating system
 This was built on windows, if you are not on windows you may need to adjust some things as needed. In the end it compiles to a baremetal x86_64 architecture regardless of host.
 
 Set the rustup override to nightly:
+
 rustup override set nightly
 
 Add the rust-src component to allow core library recompiling:
+
 rustup component add rust-src
 
 ## Building
 to create a boot image:
 
 install bootimage crate:
+
 rustup component add llvm-tools-preview
+
 cargo install bootimage
 
 run ./build.bat
