@@ -1,0 +1,1 @@
+qemu-system-x86_64 -drive format=raw,file=samsara/target/x86_64-samsara/debug/bootimage-samsara.bin
